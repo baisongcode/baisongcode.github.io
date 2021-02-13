@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Welcome to this website!
+欢迎访问柏松的记事本!
 
-> This website is using [laobubu](http://laobubu.net)'s theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
+本站的国内镜像站为[http://baisong.gitee.io/](http://baisong.gitee.io/)
+
+> 本站使用[github page](https://pages.github.com/)，[jekyll](https://jekyllrb.com/) 以及[laobubu](http://laobubu.net)的主题: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)，感谢！
