@@ -19,7 +19,7 @@ categories: 3D设计与制造
 
 ![image](/img/2021/2021-2-21-vscode-debug-sketchup-1.png)
 
-```json
+```
 {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
@@ -48,15 +48,16 @@ categories: 3D设计与制造
 
 ![image](/img/2021/2021-2-21-vscode-debug-sketchup-3.png)
 
-于是想了个Workaround：
+于是想了个**Workaround**：
 
 1. 把“C:\Program Files\SketchUp\SketchUp 2020”加到path中去，避免盘符或路径空格引起的问题
-![image](/img/2021/2021-2-21-vscode-debug-sketchup-4.png)
+  ![image](/img/2021/2021-2-21-vscode-debug-sketchup-4.png)
+
 2. 用转义字符代替单引号
 
-这样，task.json变为：
+  这样，task.json变为：
 
-```json
+```
 {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
@@ -82,14 +83,16 @@ categories: 3D设计与制造
 
 这点在[官方文档](https://github.com/SketchUp/sketchup-ruby-api-tutorials/wiki/VSCode-Debugger-Setup#preparing-sketchup)上是有的，但容易漏掉或搞错。
 
-在[sketchup-ruby-debugger](https://github.com/SketchUp/sketchup-ruby-debugger/releases)的release页面上，下载和自己SU版本对应的SURubyDebugger.dll文件，放到和Sketchup.exe同层的目录下，就可以了。否则无法建立和SU的通讯
+在sketchup-ruby-debugger的[release页面](https://github.com/SketchUp/sketchup-ruby-debugger/releases)上，下载和自己SU版本对应的SURubyDebugger.dll文件，放到和Sketchup.exe同层的目录下，就可以了。否则无法建立和SU的通讯
 
 ## 三、进行调试
 
 注意以上两点后，我在本地就能成功debug了
 
-先设置好断点，然后运行“Debug in SketchUp 2020”的Task
+先设置好断点，然后运行Task
+
 ![image](/img/2021/2021-2-21-vscode-debug-sketchup-6.png)
 
 等SU被唤起后，再按F5，就可以debug了
+
 ![image](/img/2021/2021-2-21-vscode-debug-sketchup-7.png)
