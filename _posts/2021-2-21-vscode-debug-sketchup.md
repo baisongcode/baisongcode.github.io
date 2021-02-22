@@ -15,6 +15,8 @@ categories: 3D设计与制造
 
 ## 一、配置Task时，SketchUp.exe的路径及参数
 
+<!--more-->
+
 开始按照官方文档，配置task.json如下：
 
 ![image](/img/2021/2021-2-21-vscode-debug-sketchup-1.png)
