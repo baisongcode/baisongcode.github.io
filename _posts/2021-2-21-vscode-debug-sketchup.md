@@ -2,7 +2,7 @@
 layout: post
 title:  用VSCode debug Sketchup的几点注意事项
 date:   2021-2-21
-categories: 3D设计与制造
+categories: sketchup二次开发
 ---
 
 用VSCode开发Sketchup的Ruby插件，设置debug环境。主要步骤可以跟着官方的参考文档来：

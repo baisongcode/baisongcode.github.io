@@ -2,7 +2,7 @@
 layout: post
 title:  DXF文件格式的理解
 date:   2021-2-5
-categories: 3D设计与制造
+categories: sketchup二次开发
 ---
 
 本文是个人学习DXF文件格式的笔记，如有错误，欢迎指正！
