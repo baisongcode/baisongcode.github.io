@@ -7,14 +7,12 @@ description: >
   One or more sentences introducing this blog.
 
 # Your information
-# email: bsemail@sina.com
 author: 柏松
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 # profile: 
 #twitter_username: twitter_username
 #github_username:  github_username
 profile_links:
-  # Email: "mailto:bsemail@sina.com"
   # GitHub: "https://github.com/baisongcode"
   # You can add more profile links above, or edit _includes/sidebar.html 
 

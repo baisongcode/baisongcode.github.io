@@ -6,7 +6,7 @@ permalink: /about/
 
 欢迎访问柏松的记事本!
 
-本站的国内镜像站为[http://baisong.gitee.io/](http://baisong.gitee.io/)
+本站的国内镜像站为：[http://baisong.gitee.io/](http://baisong.gitee.io/)
 
 联系我请发邮件：baisongmail在163.com（请把“在”替换为@）
 
