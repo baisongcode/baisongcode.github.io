@@ -21,7 +21,7 @@ categories: sketchup二次开发
 
 ![image](/img/2021/2021-2-21-vscode-debug-sketchup-1.png)
 
-```
+```json
 {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
@@ -59,7 +59,7 @@ categories: sketchup二次开发
 
   这样，task.json变为：
 
-```
+```json
 {
   // See https://go.microsoft.com/fwlink/?LinkId=733558
   // for the documentation about the tasks.json format
