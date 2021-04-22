@@ -4,11 +4,11 @@ url: "http://baisong.me"    # the protocol and hostname of your site, eg. `http:
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 timezone: Asia/Shanghai
 description: >
-  One or more sentences introducing this blog.
+  柏松的记事本
 
 # Your information
 author: 柏松
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+avatar: ""
 # profile: 
 #twitter_username: twitter_username
 #github_username:  github_username
